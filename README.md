@@ -1,0 +1,8 @@
+In this project, I practiced Git and GitHub. I began with creating a new repository on GitHub named hasnasalah-version-control-simulation-hasnasalah and cloned it to my local vscode. Then, I created two separate branches feature/header and feature/footer. This helped me understand how branches how they help prevent conflicting others's work.
+
+In the main branch, I created an index.html file and added a simple HTML code. After committing the changes, then i created new branch feature/header where i did change the main branch's code and add it and commited changes,Afterwardes I created another branch feature/footer where I added a footer section. I then committed and merged the footer branch into the main branch  as well as feature/header branch.
+
+To simulate a merge conflict, I switched back to the header branch and modified the same header knowing that it is already merged to main. When I tried to merge this branch into main again, Git detected a conflict because both branches had changes in the same part of the file. I opened the file, located the conflict markers, and manually resolved the issue by combining the best parts of both versions. After resolving the conflict, I staged and committed the file successfully.
+
+Finally, I pushed my changes into GitHub.
+I also created a branch named  review/main and push it to GitHub, and I created a pull request from my main branch to the branch called review/main. I learned how pull requests are an essential part of collaboration, as they allow others to review, comment, before merging. Reviewing prevent conflicts in shared projects.
